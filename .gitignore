@@ -1,0 +1,9 @@
+.venv/
+profile/
+settings.json
+__pycache__/
+build/
+dist/
+*.spec
+icon.ico
+redist/
