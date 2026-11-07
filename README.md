@@ -8,7 +8,7 @@ It shows the real Google Calendar web app, so you can view, add and edit events 
 
 ## Install
 
-1. Run `GoogleCalendarWidget-Setup.exe`. No admin rights needed.
+1. Download [`GoogleCalendarWidget-Setup.exe`](GoogleCalendarWidget-Setup.exe) and run it. No admin rights needed.
 2. On first launch, sign in to Google inside the widget, move and resize it where you want, then lock it with the 🔒 button.
 
 - The installer is not signed, so Windows may show "Windows protected your PC". Click **More info → Run anyway**.
@@ -39,21 +39,3 @@ build.bat
 ```
 
 This produces `dist\GoogleCalendarWidget-Setup.exe`. During development, run `.venv\Scripts\python.exe widget.py`.
-
-## Third-party libraries
-
-The installer bundles the libraries below, each under its own license.
-
-| Library | Used for | License |
-|---|---|---|
-| [pywebview](https://github.com/r0x0r/pywebview) | WebView2 window | BSD-3-Clause |
-| [pystray](https://github.com/moses-palmer/pystray) | Tray icon | LGPL-3.0 (unmodified) |
-| [Pillow](https://github.com/python-pillow/Pillow) | Drawing the icon | MIT-CMU |
-| [pythonnet](https://github.com/pythonnet/pythonnet) | Windows Forms buttons and dialogs | MIT |
-| [Microsoft Edge WebView2](https://developer.microsoft.com/microsoft-edge/webview2/) | Renders the calendar (installed if missing) | Microsoft Software License Terms |
-
-Built with [PyInstaller](https://pyinstaller.org/) and [Inno Setup](https://jrsoftware.org/isinfo.php).
-
-## Author
-
-Inhu Kim
